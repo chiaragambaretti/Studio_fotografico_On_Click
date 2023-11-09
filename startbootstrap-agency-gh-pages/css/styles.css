@@ -11353,6 +11353,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
 }
 
+@media (max-width: 768px){
+  .img-carusel{
+    height: 200px;
+    width: 100%;
+  }
+}
+
 .carousel-control-prev-icon{
  color: red !important;
 }
@@ -11365,6 +11372,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 156px;
   height: 156px;
 }
+
 
 .flip-card {
   width: 280px;
@@ -11396,4 +11404,28 @@ section#contact form#contactForm :-ms-input-placeholder {
 .flip-card-back {
   color: var(--bs-fucsia);
   transform: rotateY(180deg);
+}
+
+.apparecchiature{
+  background-image: url(../assets/img/about/apparecchiature.jpg) !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.creatività{
+  background-image: url(../assets/img/about/creatività.jpg) !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.bianco-nero{
+  background-image: url(../assets/img/about/bianco-nero.jpg) !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.location{
+  background-image: url(../assets/img/about/location.jpg) !important;
+  background-size: cover;
+  background-position: center;
 }
