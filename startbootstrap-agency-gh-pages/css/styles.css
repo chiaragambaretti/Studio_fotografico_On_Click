@@ -11366,6 +11366,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .studio{
   background-image: url(../assets/img/about/studio.jpg);
+  background-size: cover;
 }
 
 .about-img{
